@@ -30,7 +30,7 @@ navLink.forEach((nav) => {
 
 document.querySelector('.logout-btn').addEventListener('click', ()=> {
   localStorage.removeItem('userToken');
-  location.href= 'index.html';
+  location.href= './index.html';
 });
 
   mode.addEventListener('click', ()=>{
