@@ -82,7 +82,7 @@ async function loginForm(userData){
   if (response.message === 'success'){
     localStorage.setItem('userToken', response.token)
     document.getElementById('msg').innerHTML = response.message;
-    location.href= './home.html'
+    location.href= 'home.html'
   }
   else {
     document.getElementById('msg').innerHTML = response.message;
